@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+}
+
+
+.main {
+    margin: 150px auto;
+    padding: 2rem;
+    height: 70%;
+    width: 300px;
+    border-radius: 1.5rem;
+    background-color: rgb(53, 51, 51);
+    color: white;
+    text-align: center;
+}
+
+i {
+    color: rgb(248, 104, 9);
+
+}
+
+p {
+    font-size: smaller;
+    color: rgb(167, 164, 164);
+}
+
+.stars {
+    display: flex;
+    justify-content: space-between;
+}
+
+.star {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    background-color: rgb(85, 83, 83);
+    border: none;
+    color: rgb(167, 164, 164);
+}
+
+#submit {
+    width: 60%;
+    border-radius: 2rem;
+    padding: 0.6rem;
+    background-color: rgb(248, 104, 9);
+    margin-top: 1.5rem;
+    font-size: small;
+    color: white;
+    border: none;
+
+}
+
+.star:hover {
+    background-color: rgb(248, 104, 9);
+    color: white;
+}
+
+#temp {
+    width: 100%;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: rgb(248, 104, 9);
+    margin-top: 1.5rem;
+    font-size: small;
+    color: white;
+    border: none;
+    background-color: white;
+    color: rgb(248, 104, 9);
+    box-shadow: 1px 8px 16px rgb(231, 143, 143);
+}
+
+#temporary {
+    background-color: yellow;
+    color: black;
+}
+
+/* @media screen and (max-width:600px) {
+    .main {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .main {
+        width: 95%;
+    }
+} */

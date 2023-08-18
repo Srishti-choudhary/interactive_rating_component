@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+}
+
+.main2 {
+    margin: 150px auto;
+    padding: 2rem;
+    height: 70%;
+    width: 300px;
+    border-radius: 1.5rem;
+    background-color: rgb(44, 42, 42);
+    color: white;
+    text-align: center;
+}
+
+
+
+img {
+    height: 30%;
+    width: 50%;
+}
